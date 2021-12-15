@@ -1,0 +1,2 @@
+The project was written in JAVA using IntelliJ. 
+All the instructions of how to run the program are in the design document: "Operating Systems Project 1.docx"

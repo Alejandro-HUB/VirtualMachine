@@ -1,0 +1,891 @@
+ ** SharkOS **                
+---------------------------------------------
+Loading programs.....
+---------------------------------------------
+Program Loaded: src/Resource/Program1.txt
+	◘ Location: 10
+	◘ Scheduled Arrival Time: -1
+Program Loaded: src/Resource/Program2.txt
+	◘ Location: 36
+	◘ Scheduled Arrival Time: 6
+Program Loaded: src/Resource/Program3.txt
+	◘ Location: 70
+	◘ Scheduled Arrival Time: 11
+Program Loaded: src/Resource/ProgramRequired1.txt
+	◘ Location: 100
+	◘ Scheduled Arrival Time: 17
+Program Loaded: src/Resource/ProgramRequired2.txt
+	◘ Location: 500
+	◘ Scheduled Arrival Time: 23
+Program Loaded: src/Resource/ProgramRequired3.txt
+	◘ Location: 600
+	◘ Scheduled Arrival Time: 29
+
+Program 1 is loaded:
+
+10: 40
+11: 30
+12: 50
+13: 31
+14: 60
+15: 32
+16: 0
+17: 30
+18: 31
+19: 32
+20: 33
+21: 0
+
+Program 2 is loaded:
+
+36: 50
+37: 55
+38: 60
+39: 56
+40: 70
+41: 57
+42: 0
+43: 55
+44: 56
+45: 57
+46: 58
+47: 0
+
+Program 3 is loaded:
+
+70: 100
+71: 60
+72: 50
+73: 61
+74: 60
+75: 61
+76: 78
+77: 75
+78: 63
+79: 0
+
+Program 4 is loaded:
+
+100: 100
+101: 101
+102: 102
+103: 103
+104: 104
+105: 105
+106: 106
+107: 107
+108: 108
+109: 109
+110: 200
+111: 0
+
+Program 5 is loaded:
+
+500: 12
+501: 201
+502: 1
+503: 203
+504: 201
+505: 203
+506: 508
+507: 505
+508: 202
+509: 0
+
+Program 6 is loaded:
+
+600: 10
+601: 301
+602: 2
+603: 303
+604: 20
+605: 304
+606: 301
+607: 302
+608: 302
+609: 303
+610: 302
+611: 304
+612: 303
+613: 304
+614: 616
+615: 608
+616: 0
+
+---------------------------------------------
+Instructions execution begin.....
+---------------------------------------------
+Program Loaded: src/Resource/Program1.txt
+	◘ Location: 10
+	◘ Scheduled Arrival Time: -1
+Program Loaded: src/Resource/Program2.txt
+	◘ Location: 36
+	◘ Scheduled Arrival Time: 6
+Program Loaded: src/Resource/Program3.txt
+	◘ Location: 70
+	◘ Scheduled Arrival Time: 11
+Program Loaded: src/Resource/ProgramRequired1.txt
+	◘ Location: 100
+	◘ Scheduled Arrival Time: 17
+Program Loaded: src/Resource/ProgramRequired2.txt
+	◘ Location: 500
+	◘ Scheduled Arrival Time: 23
+Program Loaded: src/Resource/ProgramRequired3.txt
+	◘ Location: 600
+	◘ Scheduled Arrival Time: 29
+
+Time: 0
+Instruction from memory 340 at location 10
+3 - LDI, VALUE - 40
+Time: 1
+Instruction from memory 230 at location 11
+2 - STR, VALUE - 30
+Time: 2
+Instruction from memory 350 at location 12
+3 - LDI, VALUE - 50
+Time: 3
+Instruction from memory 231 at location 13
+2 - STR, VALUE - 31
+Time: 4
+Instruction from memory 360 at location 14
+3 - LDI, VALUE - 60
+Time: 5
+Instruction from memory 232 at location 15
+2 - STR, VALUE - 32
+
+---------------------------------------------
+INTERRUPT DUE TO ARRIVAL AT TIME: 6
+SAVE PSIAR TEMP: 16
+STARTING PROGRAM AT PSIAR: 36
+---------------------------------------------
+
+Time: 6
+Instruction from memory 350 at location 36
+3 - LDI, VALUE - 50
+Time: 7
+Instruction from memory 255 at location 37
+2 - STR, VALUE - 55
+Time: 8
+Instruction from memory 360 at location 38
+3 - LDI, VALUE - 60
+Time: 9
+Instruction from memory 256 at location 39
+2 - STR, VALUE - 56
+Time: 10
+Instruction from memory 370 at location 40
+3 - LDI, VALUE - 70
+
+---------------------------------------------
+INTERRUPT DUE TO ARRIVAL AT TIME: 11
+SAVE PSIAR TEMP: 41
+STARTING PROGRAM AT PSIAR: 70
+---------------------------------------------
+
+Time: 11
+Instruction from memory 3100 at location 70
+3 - LDI, VALUE - 100
+Time: 12
+Instruction from memory 260 at location 71
+2 - STR, VALUE - 60
+Time: 13
+Instruction from memory 350 at location 72
+3 - LDI, VALUE - 50
+Time: 14
+Instruction from memory 261 at location 73
+2 - STR, VALUE - 61
+Time: 15
+Instruction from memory 460 at location 74
+4 - LDA, VALUE - 60
+Time: 16
+Instruction from memory 561 at location 75
+5 - SUB, VALUE - 61
+
+---------------------------------------------
+INTERRUPT DUE TO ARRIVAL AT TIME: 17
+SAVE PSIAR TEMP: 76
+STARTING PROGRAM AT PSIAR: 100
+---------------------------------------------
+
+Time: 17
+Instruction from memory 4100 at location 100
+4 - LDA, VALUE - 100
+Time: 18
+Instruction from memory 1101 at location 101
+1 - ADD, VALUE - 101
+Time: 19
+Instruction from memory 1102 at location 102
+1 - ADD, VALUE - 102
+Time: 20
+Instruction from memory 1103 at location 103
+1 - ADD, VALUE - 103
+Time: 21
+Instruction from memory 1104 at location 104
+1 - ADD, VALUE - 104
+Time: 22
+Instruction from memory 1105 at location 105
+1 - ADD, VALUE - 105
+
+---------------------------------------------
+INTERRUPT DUE TO ARRIVAL AT TIME: 23
+SAVE PSIAR TEMP: 106
+STARTING PROGRAM AT PSIAR: 500
+---------------------------------------------
+
+Time: 23
+Instruction from memory 312 at location 500
+3 - LDI, VALUE - 12
+Time: 24
+Instruction from memory 2201 at location 501
+2 - STR, VALUE - 201
+Time: 25
+Instruction from memory 31 at location 502
+3 - LDI, VALUE - 1
+Time: 26
+Instruction from memory 2203 at location 503
+2 - STR, VALUE - 203
+Time: 27
+Instruction from memory 4201 at location 504
+4 - LDA, VALUE - 201
+Time: 28
+Instruction from memory 5203 at location 505
+5 - SUB, VALUE - 203
+
+---------------------------------------------
+INTERRUPT DUE TO ARRIVAL AT TIME: 29
+SAVE PSIAR TEMP: 506
+STARTING PROGRAM AT PSIAR: 600
+---------------------------------------------
+
+Time: 29
+Instruction from memory 310 at location 600
+3 - LDI, VALUE - 10
+Time: 30
+Instruction from memory 2301 at location 601
+2 - STR, VALUE - 301
+Time: 31
+Instruction from memory 32 at location 602
+3 - LDI, VALUE - 2
+Time: 32
+Instruction from memory 2303 at location 603
+2 - STR, VALUE - 303
+Time: 33
+Instruction from memory 320 at location 604
+3 - LDI, VALUE - 20
+Time: 34
+Instruction from memory 2304 at location 605
+2 - STR, VALUE - 304
+Time: 35
+Instruction from memory 4301 at location 606
+4 - LDA, VALUE - 301
+Time: 36
+Instruction from memory 2302 at location 607
+2 - STR, VALUE - 302
+Time: 37
+Instruction from memory 4302 at location 608
+4 - LDA, VALUE - 302
+Time: 38
+Instruction from memory 1303 at location 609
+1 - ADD, VALUE - 303
+Time: 39
+Instruction from memory 2302 at location 610
+2 - STR, VALUE - 302
+Time: 40
+Instruction from memory 4304 at location 611
+4 - LDA, VALUE - 304
+Time: 41
+Instruction from memory 5303 at location 612
+5 - SUB, VALUE - 303
+Time: 42
+Instruction from memory 2304 at location 613
+2 - STR, VALUE - 304
+Time: 43
+Instruction from memory 6616 at location 614
+6 - CBR, VALUE - 616
+Time: 44
+Instruction from memory 7608 at location 615
+7 - BRH, VALUE - 608
+Time: 45
+Instruction from memory 4302 at location 608
+4 - LDA, VALUE - 302
+Time: 46
+Instruction from memory 1303 at location 609
+1 - ADD, VALUE - 303
+Time: 47
+Instruction from memory 2302 at location 610
+2 - STR, VALUE - 302
+Time: 48
+Instruction from memory 4304 at location 611
+4 - LDA, VALUE - 304
+Time: 49
+Instruction from memory 5303 at location 612
+5 - SUB, VALUE - 303
+Time: 50
+Instruction from memory 2304 at location 613
+2 - STR, VALUE - 304
+Time: 51
+Instruction from memory 6616 at location 614
+6 - CBR, VALUE - 616
+Time: 52
+Instruction from memory 7608 at location 615
+7 - BRH, VALUE - 608
+Time: 53
+Instruction from memory 4302 at location 608
+4 - LDA, VALUE - 302
+Time: 54
+Instruction from memory 1303 at location 609
+1 - ADD, VALUE - 303
+Time: 55
+Instruction from memory 2302 at location 610
+2 - STR, VALUE - 302
+Time: 56
+Instruction from memory 4304 at location 611
+4 - LDA, VALUE - 304
+Time: 57
+Instruction from memory 5303 at location 612
+5 - SUB, VALUE - 303
+Time: 58
+Instruction from memory 2304 at location 613
+2 - STR, VALUE - 304
+Time: 59
+Instruction from memory 6616 at location 614
+6 - CBR, VALUE - 616
+Time: 60
+Instruction from memory 7608 at location 615
+7 - BRH, VALUE - 608
+Time: 61
+Instruction from memory 4302 at location 608
+4 - LDA, VALUE - 302
+Time: 62
+Instruction from memory 1303 at location 609
+1 - ADD, VALUE - 303
+Time: 63
+Instruction from memory 2302 at location 610
+2 - STR, VALUE - 302
+Time: 64
+Instruction from memory 4304 at location 611
+4 - LDA, VALUE - 304
+Time: 65
+Instruction from memory 5303 at location 612
+5 - SUB, VALUE - 303
+Time: 66
+Instruction from memory 2304 at location 613
+2 - STR, VALUE - 304
+Time: 67
+Instruction from memory 6616 at location 614
+6 - CBR, VALUE - 616
+Time: 68
+Instruction from memory 7608 at location 615
+7 - BRH, VALUE - 608
+Time: 69
+Instruction from memory 4302 at location 608
+4 - LDA, VALUE - 302
+Time: 70
+Instruction from memory 1303 at location 609
+1 - ADD, VALUE - 303
+Time: 71
+Instruction from memory 2302 at location 610
+2 - STR, VALUE - 302
+Time: 72
+Instruction from memory 4304 at location 611
+4 - LDA, VALUE - 304
+Time: 73
+Instruction from memory 5303 at location 612
+5 - SUB, VALUE - 303
+Time: 74
+Instruction from memory 2304 at location 613
+2 - STR, VALUE - 304
+Time: 75
+Instruction from memory 6616 at location 614
+6 - CBR, VALUE - 616
+Time: 76
+Instruction from memory 7608 at location 615
+7 - BRH, VALUE - 608
+Time: 77
+Instruction from memory 4302 at location 608
+4 - LDA, VALUE - 302
+Time: 78
+Instruction from memory 1303 at location 609
+1 - ADD, VALUE - 303
+Time: 79
+Instruction from memory 2302 at location 610
+2 - STR, VALUE - 302
+Time: 80
+Instruction from memory 4304 at location 611
+4 - LDA, VALUE - 304
+Time: 81
+Instruction from memory 5303 at location 612
+5 - SUB, VALUE - 303
+Time: 82
+Instruction from memory 2304 at location 613
+2 - STR, VALUE - 304
+Time: 83
+Instruction from memory 6616 at location 614
+6 - CBR, VALUE - 616
+Time: 84
+Instruction from memory 7608 at location 615
+7 - BRH, VALUE - 608
+Time: 85
+Instruction from memory 4302 at location 608
+4 - LDA, VALUE - 302
+Time: 86
+Instruction from memory 1303 at location 609
+1 - ADD, VALUE - 303
+Time: 87
+Instruction from memory 2302 at location 610
+2 - STR, VALUE - 302
+Time: 88
+Instruction from memory 4304 at location 611
+4 - LDA, VALUE - 304
+Time: 89
+Instruction from memory 5303 at location 612
+5 - SUB, VALUE - 303
+Time: 90
+Instruction from memory 2304 at location 613
+2 - STR, VALUE - 304
+Time: 91
+Instruction from memory 6616 at location 614
+6 - CBR, VALUE - 616
+Time: 92
+Instruction from memory 7608 at location 615
+7 - BRH, VALUE - 608
+Time: 93
+Instruction from memory 4302 at location 608
+4 - LDA, VALUE - 302
+Time: 94
+Instruction from memory 1303 at location 609
+1 - ADD, VALUE - 303
+Time: 95
+Instruction from memory 2302 at location 610
+2 - STR, VALUE - 302
+Time: 96
+Instruction from memory 4304 at location 611
+4 - LDA, VALUE - 304
+Time: 97
+Instruction from memory 5303 at location 612
+5 - SUB, VALUE - 303
+Time: 98
+Instruction from memory 2304 at location 613
+2 - STR, VALUE - 304
+Time: 99
+Instruction from memory 6616 at location 614
+6 - CBR, VALUE - 616
+Time: 100
+Instruction from memory 7608 at location 615
+7 - BRH, VALUE - 608
+Time: 101
+Instruction from memory 4302 at location 608
+4 - LDA, VALUE - 302
+Time: 102
+Instruction from memory 1303 at location 609
+1 - ADD, VALUE - 303
+Time: 103
+Instruction from memory 2302 at location 610
+2 - STR, VALUE - 302
+Time: 104
+Instruction from memory 4304 at location 611
+4 - LDA, VALUE - 304
+Time: 105
+Instruction from memory 5303 at location 612
+5 - SUB, VALUE - 303
+Time: 106
+Instruction from memory 2304 at location 613
+2 - STR, VALUE - 304
+Time: 107
+Instruction from memory 6616 at location 614
+6 - CBR, VALUE - 616
+Time: 108
+Instruction from memory 7608 at location 615
+7 - BRH, VALUE - 608
+Time: 109
+Instruction from memory 4302 at location 608
+4 - LDA, VALUE - 302
+Time: 110
+Instruction from memory 1303 at location 609
+1 - ADD, VALUE - 303
+Time: 111
+Instruction from memory 2302 at location 610
+2 - STR, VALUE - 302
+Time: 112
+Instruction from memory 4304 at location 611
+4 - LDA, VALUE - 304
+Time: 113
+Instruction from memory 5303 at location 612
+5 - SUB, VALUE - 303
+Time: 114
+Instruction from memory 2304 at location 613
+2 - STR, VALUE - 304
+Time: 115
+Instruction from memory 6616 at location 614
+6 - CBR, VALUE - 616
+Time: 116
+Instruction from memory 80 at location 616
+8 - HALT, VALUE - 0
+
+---------------------------------------------
+YIELD TO NEXT PROGRAM
+---------------------------------------------
+
+---------------------------------------------
+RESUME PROGRAM AT PSIAR: 16
+---------------------------------------------
+
+Time: 117
+Instruction from memory 30 at location 16
+3 - LDI, VALUE - 0
+Time: 118
+Instruction from memory 130 at location 17
+1 - ADD, VALUE - 30
+Time: 119
+Instruction from memory 131 at location 18
+1 - ADD, VALUE - 31
+Time: 120
+Instruction from memory 132 at location 19
+1 - ADD, VALUE - 32
+Time: 121
+Instruction from memory 233 at location 20
+2 - STR, VALUE - 33
+Time: 122
+Instruction from memory 80 at location 21
+8 - HALT, VALUE - 0
+
+---------------------------------------------
+YIELD TO NEXT PROGRAM
+---------------------------------------------
+
+---------------------------------------------
+RESUME PROGRAM AT PSIAR: 41
+---------------------------------------------
+
+Time: 123
+Instruction from memory 257 at location 41
+2 - STR, VALUE - 57
+Time: 124
+Instruction from memory 30 at location 42
+3 - LDI, VALUE - 0
+Time: 125
+Instruction from memory 155 at location 43
+1 - ADD, VALUE - 55
+Time: 126
+Instruction from memory 156 at location 44
+1 - ADD, VALUE - 56
+Time: 127
+Instruction from memory 157 at location 45
+1 - ADD, VALUE - 57
+Time: 128
+Instruction from memory 258 at location 46
+2 - STR, VALUE - 58
+Time: 129
+Instruction from memory 80 at location 47
+8 - HALT, VALUE - 0
+
+---------------------------------------------
+YIELD TO NEXT PROGRAM
+---------------------------------------------
+
+---------------------------------------------
+RESUME PROGRAM AT PSIAR: 76
+---------------------------------------------
+
+Time: 130
+Instruction from memory 678 at location 76
+6 - CBR, VALUE - 78
+Time: 131
+Instruction from memory 775 at location 77
+7 - BRH, VALUE - 75
+Time: 132
+Instruction from memory 561 at location 75
+5 - SUB, VALUE - 61
+Time: 133
+Instruction from memory 678 at location 76
+6 - CBR, VALUE - 78
+Time: 134
+Instruction from memory 263 at location 78
+2 - STR, VALUE - 63
+Time: 135
+Instruction from memory 80 at location 79
+8 - HALT, VALUE - 0
+
+---------------------------------------------
+YIELD TO NEXT PROGRAM
+---------------------------------------------
+
+---------------------------------------------
+RESUME PROGRAM AT PSIAR: 106
+---------------------------------------------
+
+Time: 136
+Instruction from memory 1106 at location 106
+1 - ADD, VALUE - 106
+Time: 137
+Instruction from memory 1107 at location 107
+1 - ADD, VALUE - 107
+Time: 138
+Instruction from memory 1108 at location 108
+1 - ADD, VALUE - 108
+Time: 139
+Instruction from memory 1109 at location 109
+1 - ADD, VALUE - 109
+Time: 140
+Instruction from memory 2200 at location 110
+2 - STR, VALUE - 200
+Time: 141
+Instruction from memory 80 at location 111
+8 - HALT, VALUE - 0
+
+---------------------------------------------
+YIELD TO NEXT PROGRAM
+---------------------------------------------
+
+---------------------------------------------
+RESUME PROGRAM AT PSIAR: 506
+---------------------------------------------
+
+Time: 142
+Instruction from memory 6508 at location 506
+6 - CBR, VALUE - 508
+Time: 143
+Instruction from memory 7505 at location 507
+7 - BRH, VALUE - 505
+Time: 144
+Instruction from memory 5203 at location 505
+5 - SUB, VALUE - 203
+Time: 145
+Instruction from memory 6508 at location 506
+6 - CBR, VALUE - 508
+Time: 146
+Instruction from memory 7505 at location 507
+7 - BRH, VALUE - 505
+Time: 147
+Instruction from memory 5203 at location 505
+5 - SUB, VALUE - 203
+Time: 148
+Instruction from memory 6508 at location 506
+6 - CBR, VALUE - 508
+Time: 149
+Instruction from memory 7505 at location 507
+7 - BRH, VALUE - 505
+Time: 150
+Instruction from memory 5203 at location 505
+5 - SUB, VALUE - 203
+Time: 151
+Instruction from memory 6508 at location 506
+6 - CBR, VALUE - 508
+Time: 152
+Instruction from memory 7505 at location 507
+7 - BRH, VALUE - 505
+Time: 153
+Instruction from memory 5203 at location 505
+5 - SUB, VALUE - 203
+Time: 154
+Instruction from memory 6508 at location 506
+6 - CBR, VALUE - 508
+Time: 155
+Instruction from memory 7505 at location 507
+7 - BRH, VALUE - 505
+Time: 156
+Instruction from memory 5203 at location 505
+5 - SUB, VALUE - 203
+Time: 157
+Instruction from memory 6508 at location 506
+6 - CBR, VALUE - 508
+Time: 158
+Instruction from memory 7505 at location 507
+7 - BRH, VALUE - 505
+Time: 159
+Instruction from memory 5203 at location 505
+5 - SUB, VALUE - 203
+Time: 160
+Instruction from memory 6508 at location 506
+6 - CBR, VALUE - 508
+Time: 161
+Instruction from memory 7505 at location 507
+7 - BRH, VALUE - 505
+Time: 162
+Instruction from memory 5203 at location 505
+5 - SUB, VALUE - 203
+Time: 163
+Instruction from memory 6508 at location 506
+6 - CBR, VALUE - 508
+Time: 164
+Instruction from memory 7505 at location 507
+7 - BRH, VALUE - 505
+Time: 165
+Instruction from memory 5203 at location 505
+5 - SUB, VALUE - 203
+Time: 166
+Instruction from memory 6508 at location 506
+6 - CBR, VALUE - 508
+Time: 167
+Instruction from memory 7505 at location 507
+7 - BRH, VALUE - 505
+Time: 168
+Instruction from memory 5203 at location 505
+5 - SUB, VALUE - 203
+Time: 169
+Instruction from memory 6508 at location 506
+6 - CBR, VALUE - 508
+Time: 170
+Instruction from memory 7505 at location 507
+7 - BRH, VALUE - 505
+Time: 171
+Instruction from memory 5203 at location 505
+5 - SUB, VALUE - 203
+Time: 172
+Instruction from memory 6508 at location 506
+6 - CBR, VALUE - 508
+Time: 173
+Instruction from memory 7505 at location 507
+7 - BRH, VALUE - 505
+Time: 174
+Instruction from memory 5203 at location 505
+5 - SUB, VALUE - 203
+Time: 175
+Instruction from memory 6508 at location 506
+6 - CBR, VALUE - 508
+Time: 176
+Instruction from memory 2202 at location 508
+2 - STR, VALUE - 202
+Time: 177
+Instruction from memory 80 at location 509
+8 - HALT, VALUE - 0
+
+---------------------------------------------
+Fetching Results.....
+---------------------------------------------
+Store points with the results: 
+
+Program 1 results:
+
+30: 40
+31: 50
+32: 60
+33: 150
+
+Program 2 results:
+
+55: 50
+56: 60
+57: 70
+58: 180
+
+Program 3 results:
+
+60: 100
+61: 50
+63: 0
+
+Program 4 results:
+
+200: 1045
+
+Program 5 results:
+
+201: 12
+201: 12
+202: 0
+203: 1
+
+Program 6 results:
+
+301: 10
+302: 30
+303: 2
+304: 0
+
+---------------------------------------------
+All the populated memory: 
+---------------------------------------------
+10: 40
+11: 30
+12: 50
+13: 31
+14: 60
+15: 32
+16: 0
+17: 30
+18: 31
+19: 32
+20: 33
+21: 0
+30: 40
+31: 50
+32: 60
+33: 150
+36: 50
+37: 55
+38: 60
+39: 56
+40: 70
+41: 57
+42: 0
+43: 55
+44: 56
+45: 57
+46: 58
+47: 0
+55: 50
+56: 60
+57: 70
+58: 180
+60: 100
+61: 50
+63: 0
+70: 100
+71: 60
+72: 50
+73: 61
+74: 60
+75: 61
+76: 78
+77: 75
+78: 63
+79: 0
+100: 100
+101: 101
+102: 102
+103: 103
+104: 104
+105: 105
+106: 106
+107: 107
+108: 108
+109: 109
+110: 200
+111: 0
+200: 1045
+201: 12
+202: 0
+203: 1
+301: 10
+302: 30
+303: 2
+304: 0
+500: 12
+501: 201
+502: 1
+503: 203
+504: 201
+505: 203
+506: 508
+507: 505
+508: 202
+509: 0
+600: 10
+601: 301
+602: 2
+603: 303
+604: 20
+605: 304
+606: 301
+607: 302
+608: 302
+609: 303
+610: 302
+611: 304
+612: 303
+613: 304
+614: 616
+615: 608
+616: 0
+
+Process finished with exit code 0
